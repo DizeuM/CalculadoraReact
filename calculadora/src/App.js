@@ -112,7 +112,7 @@ const App = () => {
           <Button label="ac" onClick={handlerOnClear} bgColor="#D4D4D2"/>
           <Button label="<x" onClick={() => handleAddNumber('')} bgColor="#D4D4D2"/>
           <Button label="%" onClick={() => handleAddNumber('')} bgColor="#D4D4D2"/>
-          <Button label="/" onClick={handleSplitNumbers} bgColor="#D4D4D2"/>
+          <Button label="/" onClick={handleSplitNumbers} bgColor="#F69502"/>
         </Row>
         <Row>
           <Button label="7" onClick={() => handleAddNumber('7')}/>
